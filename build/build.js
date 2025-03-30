@@ -111,7 +111,12 @@ var list = [
         file: 'RussianStemmer.js',
         stopwords: stopwordsCustomFolder + 'ru.csv',
         wordCharacters: wordCharacters('Cyrillic')
-    }, {
+    },{
+        locale: 'kk',
+        file: 'KazakhStemmer.js',
+        stopwords: stopwordsCustomFolder + 'kk.csv',
+        wordCharacters: wordCharacters('Cyrillic')
+    },{
         locale: 'es',
         file: 'SpanishStemmer.js',
         stopwords: stopwordsRepoFolder + 'es.csv',
